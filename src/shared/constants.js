@@ -1,0 +1,35 @@
+module.exports = Object.freeze({
+  PLAYER_WIDTH: 191.75,
+  PLAYER_HEIGHT: 250,
+  PLAYER_MAX_HP: 100,
+  PLAYER_SPEED: 0,
+  PLAYER_COIN_COOLDOWN: 5,
+
+  COIN_RADIUS: 16,
+
+  /*BULLET_RADIUS: 3,
+  BULLET_SPEED: 800,
+  BULLET_DAMAGE: 10,*/
+
+  SCORE_COIN_HIT: 100,
+  SCORE_PER_SECOND: 0,
+
+  BALCONY_HEIGHT: 250,
+  BALCONY_WIDTH: 640,
+  NO_BALCONY_WIDTH: 117,
+
+  MAP_SIZE: 3000,
+  MAP_HEIGHT: 10000,
+  MAP_WIDTH: 1000,
+  MSG_TYPES: {
+    JOIN_GAME: 'join_game',
+    GAME_UPDATE: 'update',
+    INPUT: 'input',
+    MOUSE: 'mouse',
+    GAME_OVER: 'dead',
+  },
+
+  TEST: false,
+  G: -9.81,
+  UP: Math.PI/2,
+});
